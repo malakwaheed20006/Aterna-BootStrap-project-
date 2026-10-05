@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap Gardening</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+</head>
+<body>
+
+<header class="position-relative">
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg site-nav">
+   <a class="navbar-brand d-flex align-items-center" href="#">
+  <img src="./images/leaf.svg" alt="Aterna" class="brand-leaf">
+  <span>Aterna</span>
+</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav me-auto ms-lg-3">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Home</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Home Sidebar Left</a></li>
+            <li><a class="dropdown-item" href="#">Home Sidebar Right</a></li>
+            <li><a class="dropdown-item" href="#">Home Three Columns</a></li>
+            <li><a class="dropdown-item" href="#">Home Dark Style 1</a></li>
+            <li><a class="dropdown-item" href="#">Home Dark Style 2</a></li>
+            <li><a class="dropdown-item" href="#">Home Boxed Dark</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Features</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">13 Homepage Variations</a></li>
+            <li><a class="dropdown-item" href="#">14 Preset Color Styles</a></li>
+            <li><a class="dropdown-item" href="#">5 Megamenu Styles</a></li>
+            <li><a class="dropdown-item" href="#">Unlimited Google Fonts</a></li>
+            <li><a class="dropdown-item" href="#">Sticky Header</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Pages</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+            <li><a class="dropdown-item" href="#">Schedule a Visit</a></li>
+            <li><a class="dropdown-item" href="#">Testimonials</a></li>
+            <li><a class="dropdown-item" href="#">Meet Our Team</a></li>
+            <li><a class="dropdown-item" href="#">Contact Page</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Portfolio</a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" href="#">Default Style</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Four Columns Rectangular</a></li>
+                <li><a class="dropdown-item" href="#">Four Columns Square</a></li>
+                <li><a class="dropdown-item" href="#">Four Columns Masonry</a></li>
+                <li><a class="dropdown-item" href="#">Three Columns Square</a></li>
+              </ul>
+            </li>
+            <li class="dropdown-submenu">
+              <a class="dropdown-item" href="#">Gallery Style</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Four Columns Gallery</a></li>
+                <li><a class="dropdown-item" href="#">Three Columns Gallery</a></li>
+              </ul>
+            </li>
+            <li><a class="dropdown-item" href="#">Portfolio With Module</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#">Blog</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Blog Sidebar Left</a></li>
+            <li><a class="dropdown-item" href="#">Blog Sidebar Right</a></li>
+            <li><a class="dropdown-item" href="#">Blog Grid</a></li>
+            <li><a class="dropdown-item" href="#">Blog Detail Page</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+      </ul>
+
+      <a href="#" class="btn btn-quote">GET A QUOTE</a>
+    </div>
+  </nav>
+
+  <!-- Hero slider -->
+  <div id="hero" class="carousel slide hero" data-bs-ride="carousel">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <section class="slide slide-1">
+          <div class="container">
+            <div class="hero-card">
+              <h1>Turning Gardens into <span>Living</span> Masterpieces</h1>
+              <p>Excepteur sint occaecat notussaec cupire patatescita none tros proident sunti inoculus culpa quitta non officiale decaes serunt. Lorem ipsum.</p>
+              <a href="#" class="btn btn-learn me-2">Learn More</a>
+              <a href="#" class="btn btn-dark-soft">Get A Quota</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="carousel-item">
+        <section class="slide slide-2">
+          <div class="container">
+            <div class="hero-card">
+              <h1>A Modern Take on <span>Timeless</span> Gardening</h1>
+              <p>Excepteur sint occaecat notussaec cupire patatescita none tros proident sunti inoculus culpa quitta non officiale decaes serunt.</p>
+              <a href="#" class="btn btn-learn me-2">Learn More</a>
+              <a href="#" class="btn btn-dark-soft">Get A Quota</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="carousel-item">
+        <section class="slide slide-3">
+          <div class="container">
+            <div class="hero-card">
+              <h1>Designing <span>Outdoor</span> Spaces You'll Love</h1>
+              <p>Excepteur sint occaecat notussaec cupire patatescita none tros proident sunti inoculus culpa quitta non officiale decaes serunt.</p>
+              <a href="#" class="btn btn-learn me-2">Learn More</a>
+              <a href="#" class="btn btn-dark-soft">Get A Quota</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="carousel-item">
+        <section class="slide slide-4">
+          <div class="container">
+            <div class="hero-card">
+              <h1>Where Nature Meets <span>Creative</span> Design</h1>
+              <p>Excepteur sint occaecat notussaec cupire patatescita none tros proident sunti inoculus culpa quitta non officiale decaes serunt.</p>
+              <a href="#" class="btn btn-learn me-2">Learn More</a>
+              <a href="#" class="btn btn-dark-soft">Get A Quota</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="carousel-item">
+        <section class="slide slide-5">
+          <div class="container">
+            <div class="hero-card">
+              <h1>Your Dream Garden, <span>Beautifully</span> Built</h1>
+              <p>Excepteur sint occaecat notussaec cupire patatescita none tros proident sunti inoculus culpa quitta non officiale decaes serunt.</p>
+              <a href="#" class="btn btn-learn me-2">Learn More</a>
+              <a href="#" class="btn btn-dark-soft">Get A Quota</a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" data-bs-target="#hero" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" data-bs-target="#hero" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+</header>
+<!-- About section -->
+<section class="about" id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-6">
+        <div class="about-media">
+          <img src="./images/bs11.jpg" class="about-img-main" alt="Gardening together">
+
+          <a href="#" class="about-video">
+            <img src="./images/expertise-2.jpg" alt="">
+            <span class="about-video-overlay">
+              <span class="play-btn"></span>
+              <span class="watch-text">Watch Video</span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <span class="about-badge">About Aterna</span>
+        <h2 class="about-title"><span>Modern</span> &amp; Clean Aesthetic!</h2>
+        <p class="about-text">
+          At Aterna, we blend creativity, craftsmanship, and a love for nature to create inspiring outdoor spaces. Whether it's a private garden, landscape, or sustainable green area, our designs are rooted in beauty and built to last. We believe every outdoor space has the potential to become a living masterpiece.
+        </p>
+        <ul class="about-list">
+          <li>A Modern Take on Timeless Gardens</li>
+          <li>Design Outdoors with Vision</li>
+          <li>Sustainable Designs for Beautiful Outdoors</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Products section -->
+<section class="products" id="products">
+  <div class="container">
+
+    <div class="text-center">
+      <span class="products-badge">Suggested Items</span>
+      <h2 class="products-title"><span>Our</span> Awesome Products</h2>
+    </div>
+
+    <ul class="nav product-tabs" id="productTabs" role="tablist">
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p1" type="button" role="tab">Shrubs and Hedges</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p2" type="button" role="tab">Flowering Plants</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p3" type="button" role="tab">Ground Covers</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p4" type="button" role="tab">Trees &amp; Accent Plants</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#p5" type="button" role="tab">Ornamental Grasses</button></li>
+      <li class="nav-item" role="presentation"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#p6" type="button" role="tab">Drought Tolerant</button></li>
+    </ul>
+
+    <div class="tab-content">
+
+      <div class="tab-pane fade" id="p1" role="tabpanel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h3 class="product-title"><span>Shrubs</span> and Hedges</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <a href="#" class="btn btn-learn">Read More</a>
+          </div>
+          <div class="col-lg-7"><img src="./images/1-intro.jpg" class="product-img" alt="Shrubs and Hedges"></div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="p2" role="tabpanel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h3 class="product-title"><span>Flowering</span> Plants</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <a href="#" class="btn btn-learn">Read More</a>
+          </div>
+          <div class="col-lg-7"><img src="./images/2-intro.jpg" class="product-img" alt="Flowering Plants"></div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="p3" role="tabpanel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h3 class="product-title"><span>Ground</span> Covers</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <a href="#" class="btn btn-learn">Read More</a>
+          </div>
+          <div class="col-lg-7"><img src="./images/3-intro.jpg" class="product-img" alt="Ground Covers"></div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="p4" role="tabpanel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h3 class="product-title"><span>Trees &amp;</span> Accent Plants</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <a href="#" class="btn btn-learn">Read More</a>
+          </div>
+          <div class="col-lg-7"><img src="./images/4-intro.jpg" class="product-img" alt="Trees and Accent Plants"></div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade" id="p5" role="tabpanel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h3 class="product-title"><span>Ornamental</span> Grasses</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <a href="#" class="btn btn-learn">Read More</a>
+          </div>
+          <div class="col-lg-7"><img src="./images/5-intro.jpg" class="product-img" alt="Ornamental Grasses"></div>
+        </div>
+      </div>
+
+      <div class="tab-pane fade show active" id="p6" role="tabpanel">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-5">
+            <h3 class="product-title"><span>Drought</span> Tolerant</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.</p>
+            <a href="#" class="btn btn-learn">Read More</a>
+          </div>
+          <div class="col-lg-7"><img src="./images/6-intro.jpg" class="product-img" alt="Drought Tolerant"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- Gallery section -->
+<section class="gallery" id="gallery">
+  <div class="container">
+
+    <div class="gallery-filters">
+      <button class="active" data-filter="all">All</button>
+      <button data-filter="design">Landscape Design</button>
+      <button data-filter="maintenance">Garden Maintenance</button>
+      <button data-filter="lawn">Lawn Installation</button>
+      <button data-filter="irrigation">Irrigation Systems</button>
+    </div>
+
+    <div class="gallery-grid">
+
+      <a href="#" class="gallery-item" data-cat="design">
+        <img src="./images/bs41.png" alt="Border Design">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Border</span> Design</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="maintenance">
+        <img src="./images/bs42.png" alt="Seasonal Clean-ups">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Seasonal</span> Clean-ups</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="design">
+        <img src="./images/s43.png" alt="Thematic Garden">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Thematic</span> Garden</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="lawn">
+        <img src="./images/s44.png" alt="Plant Selection">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Plant</span> Selection</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="design">
+        <img src="./images/s45.png" alt="Concept Planning">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Concept</span> Planning</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="lawn">
+        <img src="./images/s46.png" alt="Lawn Care">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Lawn</span> Care</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="irrigation">
+        <img src="./images/s47.png" alt="Smart Sprinklers">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Smart</span> Sprinklers</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="maintenance">
+        <img src="./images/s48.png" alt="Garden Upkeep">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Garden</span> Upkeep</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="irrigation">
+        <img src="./images/s49.png" alt="Drip Systems">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Drip</span> Systems</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="irrigation">
+        <img src="./images/s410.png" alt="Drip Systems">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Drip</span> Systems</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="irrigation">
+        <img src="./images/s411.png" alt="Drip Systems">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Drip</span> Systems</h4>
+        </div>
+      </a>
+
+      <a href="#" class="gallery-item" data-cat="irrigation">
+        <img src="./images/s412.png" alt="Drip Systems">
+        <div class="gallery-overlay">
+          <div class="g-icons"><span class="g-ic g-link"></span><span class="g-ic g-zoom"></span></div>
+          <h4><span>Drip</span> Systems</h4>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+<section class="why">
+  <div class="container">
+    <div class="row align-items-center g-5">
+
+      <div class="col-lg-6">
+        <div class="why-img reveal left">
+          <img src="images/why-chooseus-image.jpg" alt="Gardeners">
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="eyebrow mb-2 reveal">Why Choose Us!</div>
+        <h2 class="mb-3 reveal">Purpose Build Credibility<br>and <span>Connection!</span></h2>
+        <p class="lead-text mb-4 reveal">
+          We are Designing Nature Defining Space. we blend creativity, craftsmanship,
+          and a love for nature to create inspiring outdoor spaces. Whether it's a private
+          garden, modern landscape, or sustainable green area, our designs are rooted in
+          beauty and built to last.
+        </p>
+
+        <div class="ideas-title mb-2 reveal">Ideas:</div>
+        <ul class="checklist mb-4">
+          <li class="reveal">
+            <svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>
+            Eco-Friendly Solutions
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>
+            Attention to Detail
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>
+            Local Plant Expertise
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>
+            Sustainable Practices
+          </li>
+          <li class="reveal">
+            <svg viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></svg>
+            Personalized Service
+          </li>
+        </ul>
+
+        <a href="#" class="btn btn-brand reveal">
+          Learn More
+          <svg class="leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 11 4 20 4c0 9-6 15-15 15z"/><path d="M5 19L14 10"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="testi">
+  <div class="row g-0">
+
+    <!-- الشمال -->
+    <div class="col-lg-6 testi-left">
+      <div class="testi-left-inner">
+        <div class="t-eyebrow">Clients Feedbacks</div>
+
+        <h2 class="t-heading">
+          <span class="light">What</span> Our Customers Say About Us
+        </h2>
+
+        <p class="t-desc">
+          At Aterna, we believe that every act of kindness can spark lasting change.
+          As a non-profit organization, we are dedicated to improving lives through
+          education, healthcare, clean water, and community support.
+        </p>
+
+        <a href="#" class="btn btn-dark-brown">
+          Learn More
+          <svg class="leaf" viewBox="0 0 24 24"><path d="M5 19C5 10 11 4 20 4c0 9-6 15-15 15z"/><path d="M5 19L14 10"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- اليمين -->
+    <div class="col-lg-6">
+      <div class="testi-panel">
+
+        <!-- 🖼 صورة الخلفية الغامقة -->
+        <img class="panel-bg" src="images/s61.jfif" alt="" onerror="this.style.display='none'">
+
+        <div class="swiper testi-swiper">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="t-card">
+                <!-- 🖼 صورة العميل -->
+                <div class="t-avatar"><img src="images/1.jpg" alt="" onerror="this.style.display='none'"></div>
+                <div class="t-body">
+                  <h5 class="t-name"><span>Johnson</span> <b>Brandy</b></h5>
+                  <div class="t-role">Regular Audience</div>
+                  <div class="t-stars">★★★★★</div>
+                  <p class="t-text">Aterna completely transformed our backyard into a peaceful oasis. From design to planting, every detail was perfect.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="t-card">
+                <div class="t-avatar"><img src="images/2.jpg" alt="" onerror="this.style.display='none'"></div>
+                <div class="t-body">
+                  <h5 class="t-name"><span>Maria</span> <b>Richardson</b></h5>
+                  <div class="t-role">Home Owner</div>
+                  <div class="t-stars">★★★★★</div>
+                  <p class="t-text">I had no idea my garden could look this beautiful. Aterna's team listened to my ideas and delivered a design that exceeded expectations.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="t-card">
+                <div class="t-avatar"><img src="images/3.jpg" alt="" onerror="this.style.display='none'"></div>
+                <div class="t-body">
+                  <h5 class="t-name"><span>Andrea</span> <b>Jackson</b></h5>
+                  <div class="t-role">Customer, Florida</div>
+                  <div class="t-stars">★★★★★</div>
+                  <p class="t-text">Their maintenance team is outstanding. They keep my garden vibrant and healthy all year long, a beautifully kept space.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="t-card">
+                <div class="t-avatar"><img src="images/4.jpg" alt="" onerror="this.style.display='none'"></div>
+                <div class="t-body">
+                  <h5 class="t-name"><span>Jessica</span> <b>Channel</b></h5>
+                  <div class="t-role">Regular Audience</div>
+                  <div class="t-stars">★★★★★</div>
+                  <p class="t-text">We worked with Aterna on our terrace and the result is stunning. Professional, friendly, and on time from start to finish.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+            <div class="t-nav">
+                <button class="t-prev" aria-label="Previous">
+                    <svg viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></svg>
+                </button>
+                <button class="t-next" aria-label="Next">
+                    <svg viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></svg>
+                </button>
+                </div>
+
+              </div>
+
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Blog section -->
+<section class="blog" id="blog">
+  <div class="container">
+
+    <div class="text-center">
+      <span class="blog-label">Gardening Tips</span>
+      <h2 class="blog-title reveal-words"><span>Blog</span> Articles on Gardening Tips Seasonal Care and Design Trends</h2>
+    </div>
+
+    <div class="blog-arrows">
+      <button class="blog-arrow blog-prev" aria-label="Previous"></button>
+      <button class="blog-arrow blog-next" aria-label="Next"></button>
+    </div>
+
+    <div class="blog-track">
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s81.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Grow</span> Smarter Expert Tips for Beautiful Gardens</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 443</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s82.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Here</span> is Your Monthly Garden Care Guide</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 446</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s83.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Fresh</span> Ideas for Healthier Plants Just Aired</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 428</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s84.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Fall</span> Garden Preparation What to Do Before Winter</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 410</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s85.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Low</span> Maintenance Plants That Thrive Naturally</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 399</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s86.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>How</span> to Create a Pollinator-Friendly Garden</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 385</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s87.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Best</span> Organic Gardening Tips for Beginners</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 406</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s88.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Soil</span> Sun Water and Success Gardening Basics</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 397</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+      <article class="blog-card">
+        <div class="blog-thumb"><img src="./images/s89.jpg" alt=""><span class="blog-tag">Blog</span></div>
+        <div class="blog-body">
+          <h3><a href="#"><span>Container</span> Gardening for Small Spaces</a></h3>
+          <p>Lorem ipsum dolor sit amet, consectetur et adipisicing elit sed do eiusmod tempor incididunt u...</p>
+          <div class="blog-meta"><span class="m-date">18 Jun 2025</span><span class="m-user">Super User</span><span class="m-hits">Hits: 372</span></div>
+          <a href="#" class="blog-more">Read More</a>
+        </div>
+      </article>
+
+    </div>
+  <div class="blog-dots"></div>
+  </div>
+</section>
+
+<!-- Schedule a Visit -->
+<section class="visit" id="visit">
+  <div class="container">
+    <div class="row align-items-start g-5">
+
+      <!-- Image -->
+      <div class="col-lg-4">
+        <div class="visit-photo">
+          <img src="./images/schedule-visit.jpg" alt="Kathrina Gardian">
+
+          <h5>Kathrina Gardian</h5>
+          <p>Call: (0123) 456 789 0</p>
+        </div>
+      </div>
+
+      <!-- Form -->
+      <div class="col-lg-8">
+        <span class="visit-label">Contact Us!</span>
+
+        <h2 class="visit-title">
+          <span>Schedule</span> a Visit
+        </h2>
+
+        <form class="visit-form" action="#">
+          <div class="row g-3">
+
+            <div class="col-md-6">
+              <div class="field has-icon icon-user">
+                <input type="text" placeholder="Name">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="field has-icon icon-mail">
+                <input type="email" placeholder="Email">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="field has-icon icon-calendar">
+                <input type="datetime-local">
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="field has-icon icon-phone">
+                <input type="tel" placeholder="Phone">
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="field">
+                <textarea rows="4" placeholder="Message"></textarea>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <button type="submit" class="btn btn-dark-brown">
+                Submit Form
+              </button>
+            </div>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer -->
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-5">
+
+      <div class="col-lg-3 col-md-6">
+        <a class="footer-brand" href="#"><img src="./images/leaf.svg" alt=""> Aterna</a>
+        <p class="footer-about">Consectetur adipisicing elit, sede dolores eiuse smod temporaleste incididunt ut labore</p>
+        <ul class="footer-contact">
+          <li class="f-phone">+1 800 0123 456 78</li>
+          <li class="f-pin">4127 Lady Bug Drive Colorado</li>
+          <li class="f-mail">example@mail.com</li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-6">
+        <h4 class="footer-title"><span>Quick</span> Links</h4>
+        <ul class="footer-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Pages</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 col-6">
+        <h4 class="footer-title"><span>Useful</span> Links</h4>
+        <ul class="footer-links">
+          <li><a href="#">Irrigation Systems</a></li>
+          <li><a href="#">Lawn Installation</a></li>
+          <li><a href="#">Maintenance</a></li>
+          <li><a href="#">Landscape</a></li>
+          <li><a href="#">Tree Shrub</a></li>
+          <li><a href="#">Outdoor Living</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-6">
+        <h4 class="footer-title"><span>Subscribe</span> Newsletter</h4>
+        <p class="footer-about">Subscribe to our newsletter and stay in touch with us. Get latest updates and offers.</p>
+
+        <form class="news-form" action="#">
+          <input type="email" placeholder="Email">
+          <button type="submit">Subscribe</button>
+        </form>
+
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M14 8h2V5h-2.5C11.3 5 10 6.4 10 8.6V11H8v3h2v6h3v-6h2.2l.5-3H13V9c0-.6.3-1 1-1z"/></svg></a>
+          <a href="#" aria-label="X"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 5l14 14M19 5L5 19"/></svg></a>
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="7" r=".6" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="YouTube"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M21 8a3 3 0 0 0-2-2c-2-.5-7-.5-7-.5s-5 0-7 .5a3 3 0 0 0-2 2c-.5 2-.5 4-.5 4s0 2 .5 4a3 3 0 0 0 2 2c2 .5 7 .5 7 .5s5 0 7-.5a3 3 0 0 0 2-2c.5-2 .5-4 .5-4s0-2-.5-4zM10 15V9l5 3z"/></svg></a>
+          <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="currentColor"><rect x="5" y="10" width="3" height="9"/><circle cx="6.5" cy="6.5" r="1.8"/><path d="M11 10h3v1.3c.5-.9 1.600-1.500 3-1.500 2.500 0 3 1.700 3 4V19h-3v-4.500c0-1.200-.3-2-1.500-2s-1.500.9-1.500 2V19h-3z"/></svg></a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <div class="container d-flex flex-wrap justify-content-between gap-2">
+      <span>Copyright &copy; All Rights Reserved. Powered by Aterna</span>
+      <span>Home &nbsp; Features &nbsp; Pages &nbsp; Portfolio &nbsp; Blog &nbsp; Contact</span>
+    </div>
+  </div>
+</footer> 
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
